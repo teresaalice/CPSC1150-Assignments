@@ -7,7 +7,7 @@ public class Tax {
         
         double incomeTax = 0;
         double incomeTotal;
-        double minIncome = 106000;
+        double minIncome = 106600;
         double firstRateIncome = 38210.00;
         double firstRateTax = 5.06;
         double secondRateIncome = 38210.99;
@@ -27,7 +27,7 @@ public class Tax {
         System.out.print("Please enter a salary greater than $" + numberFormat.format(minIncome) + ": ");
         incomeTotal = scan.nextDouble();
 
-        if (incomeTotal >= 106600) {
+        if (incomeTotal >= minIncome) {
 
             //Considering that only values above 106600 will be considered, the first 4 tax rates have fixed values for income
             //Only in the final calculation we'll be using the user input
