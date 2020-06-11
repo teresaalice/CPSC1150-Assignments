@@ -1,15 +1,16 @@
-// ************************************************
+// ************************************************************************************************
+//   Midterm 1 - Program Design
 //   Program name: ExamQ1.java from TSilva100350471.zip
 //   Student name: Teresa Alice Alves e Silva
 //   Student ID: 100350471
 //   Session: W01
 //   Date: 06/11/2020
-//   Program Description: Reads one positive integer N
-//   finds and prints the largest odd number that is smaller than N
-//   and that is evenly divisible by 5 but not evenly divisible by 3
+//   Program Description: The following program reads one positive integer number. It then finds
+//   and outputs the largest odd number that is smaller than the provided number and that is evenly
+//   divisible by 5 but not evenly divisible by 3.
 //
 //
-// ************************************************
+// ************************************************************************************************
 
 import java.util.Scanner;
 
